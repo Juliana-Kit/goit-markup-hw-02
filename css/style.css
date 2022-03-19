@@ -1,0 +1,158 @@
+:root {
+  --accent-color: #2196f3;
+  --header-text-color: #212121;
+  --header-link-color: #757575;
+  --primery-title-color: #212121;
+  --primery-text-color: #757575;
+  --hero-text-color: #ffffff;
+  --secondary-text-color: #757575;
+  --futer-link-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+
+.logo {
+  font-family: 'Raleway';
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--header-text-color);
+  text-decoration: none;
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+/* Header-list */
+.header-list .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-text-color);
+}
+
+.header-list .link:hover,
+.header-list .link:focus {
+  color: var(--accent-color);
+}
+
+.header-list .link.current {
+  color: var(--accent-color);
+}
+
+.header-tel-link .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--header-link-color);
+}
+
+.header-tel-link .link:hover,
+.header-tel-link .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-tittle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--hero-text-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/*  Mainly  */
+
+.mainly-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primery-title-color);
+}
+
+.mainly-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.1;
+
+  color: var(--primery-text-color);
+}
+
+/* Company */
+.work-list,
+.company-primery-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+  color: var(--primery-title-color);
+}
+
+.company-title {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.2;
+  color: var(--primery-title-color);
+}
+
+.trade {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.2;
+  color: var(--secondary-text-color);
+}
+
+/* Futer */
+
+.page-futer {
+  background-color: #2f303a;
+}
+
+.futer-address {
+  font-style: 400;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+
+.futer-address .link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--futer-link-color);
+}
