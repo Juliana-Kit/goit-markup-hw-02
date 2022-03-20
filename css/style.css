@@ -24,6 +24,10 @@ body {
   list-style: none;
 }
 
+.btn {
+  cursor: pointer;
+}
+
 /* Logo */
 
 .logo {
@@ -39,7 +43,7 @@ body {
 }
 
 /* Header-list */
-.header-list > .link {
+.header-list-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -47,21 +51,24 @@ body {
   color: var(--header-text-color);
 }
 
-.header-list > .link:hover,
-.header-list > .link:focus,
-.header-list > .link.current {
+.header-list-link:hover,
+.header-list-link:focus {
   color: var(--accent-color);
 }
 
-.header-tel-link > .link {
+.header-list-link.current {
+  color: var(--accent-color);
+}
+
+.header-tel-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: var(--header-link-color);
 }
 
-.header-tel-link > .link:hover,
-.header-tel-link > .link:focus {
+.header-tel-link:hover,
+.header-tel-link:focus {
   color: var(--accent-color);
 }
 
@@ -149,11 +156,16 @@ body {
   color: #ffffff;
 }
 
-.futer-address .link {
+.futer-list-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--futer-link-color);
+}
+
+.futer-list-link:hover,
+.futer-list-link:focus {
+  color: var(--accent-color);
 }
 
 /* PORTFOLIO */
@@ -189,4 +201,11 @@ body {
   line-height: 1.88;
 
   color: var(--secondary-text-color);
+}
+
+.menu-title:hover,
+.menu-title:focus,
+.menu-text:hover,
+.menu-text:focus {
+  color: var(--accent-color);
 }
