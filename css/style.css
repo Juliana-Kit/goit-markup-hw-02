@@ -2,8 +2,8 @@
   --accent-color: #2196f3;
   --header-text-color: #212121;
   --header-link-color: #757575;
-  --primery-title-color: #212121;
-  --primery-text-color: #757575;
+  --primary-title-color: #212121;
+  --primary-text-color: #757575;
   --hero-text-color: #ffffff;
   --secondary-text-color: #757575;
   --futer-link-color: rgba(255, 255, 255, 0.6);
@@ -105,7 +105,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  color: var(--primery-title-color);
+  color: var(--primary-title-color);
 }
 
 .mainly-text {
@@ -113,7 +113,7 @@ body {
   font-size: 14px;
   line-height: 17.1;
 
-  color: var(--primery-text-color);
+  color: var(--primary-text-color);
 }
 
 /* Company */
@@ -123,7 +123,7 @@ body {
   font-size: 36px;
   line-height: 1.7;
   text-align: center;
-  color: var(--primery-title-color);
+  color: var(--primary-title-color);
 }
 
 .company-title {
@@ -131,7 +131,7 @@ body {
   font-size: 16px;
   text-align: center;
   line-height: 1.2;
-  color: var(--primery-title-color);
+  color: var(--primary-title-color);
 }
 
 .trade {
@@ -142,13 +142,13 @@ body {
   color: var(--secondary-text-color);
 }
 
-/* Futer */
+/* Footer */
 
-.page-futer {
+.page-footer {
   background-color: #2f303a;
 }
 
-.futer-address {
+.footer-address {
   font-style: 400;
   font-weight: 400;
   font-size: 14px;
@@ -156,15 +156,15 @@ body {
   color: #ffffff;
 }
 
-.futer-list-link {
+.footer-list-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--futer-link-color);
 }
 
-.futer-list-link:hover,
-.futer-list-link:focus {
+.footer-list-link:hover,
+.footer-list-link:focus {
   color: var(--accent-color);
 }
 
@@ -192,7 +192,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 
-  color: var(--primery-title-color);
+  color: var(--primary-title-color);
 }
 
 .menu-text {
@@ -203,9 +203,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-.menu-title:hover,
-.menu-title:focus,
-.menu-text:hover,
-.menu-text:focus {
+.menu-title-text:hover,
+.menu-title-text:focus {
   color: var(--accent-color);
 }
